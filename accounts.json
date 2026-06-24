@@ -1,0 +1,24 @@
+{
+    "7547": {
+        "name": "h",
+        "pin": "1",
+        "balance": 0.0,
+        "loan_amount": 0,
+        "loan_date": "",
+        "transactions": [
+            "Account created at 2026-01-09 20:11:02"
+        ]
+    },
+    "2044": {
+        "name": "1",
+        "pin": "1",
+        "balance": 0.0,
+        "loan_amount": 0,
+        "loan_date": "",
+        "transactions": [
+            "Account created at 2026-01-09 20:25:27",
+            "Loan taken 1000.0 at 2026-01-09 20:25:47",
+            "Loan of 1000.0 cleared with interest 0.00 at 2026-01-09 20:27:21"
+        ]
+    }
+}
