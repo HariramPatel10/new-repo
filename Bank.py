@@ -1,6 +1,6 @@
 import os, json, random, time
 from datetime import datetime, date
-
+#trying
 class Account:
     def __init__(self, acc_no, name, pin, balance):
         self.acc_no = acc_no
@@ -158,7 +158,7 @@ class Bank:
                 acc.loan_amount = 0
                 acc.loan_date = None
                 self.save()
-                print("Loan cleared successfully!")
+                print("Loan cleared successfully!!!")
                 return
         amt = float(input("Loan amount: "))
         surity = input("Enter surety account number: ")
