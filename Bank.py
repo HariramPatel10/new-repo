@@ -154,7 +154,7 @@ class Bank:
                     print("Insufficient balance to clear loan!")
                     return
                 acc.balance -= total_due
-                acc.log(f"Loan of {acc.loan_amount} cleared with interest {interest:.2f}. AVL {acc.balance}")
+                acc.log(f"Loan of {acc.loan_amount} cleared with interest : {interest:.2f}. AVL {acc.balance}")
                 acc.loan_amount = 0
                 acc.loan_date = None
                 self.save()
